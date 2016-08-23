@@ -95,4 +95,19 @@ class ItemManagerTests: XCTestCase {
         XCTAssertEqual(sut.toDoCount, 1)
     }
     
+    func testUncheckItme_ShouldIncreaseToDoItemCount() {
+        sut.addItem(ToDoItem(title: "First"))
+        sut.addItem(ToDoItem(title: "Second"))
+        
+        sut.checkItemAtIndex(0)
+        sut.checkItemAtIndex(0)
+        
+        XCTAssertEqual(sut.toDoCount, 0)
+        XCTAssertEqual(sut.doneCount, 2)
+        
+        sut.uncheckItemAtIndex(0)
+        
+        XCTAssertEqual(sut.toDoCount, 1)
+        XCTAssertEqual(sut.doneCount, 1)
+    }
 }

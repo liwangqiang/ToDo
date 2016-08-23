@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F052C1B1D6ACA46007E1AAC /* ItemListDataProviderTesets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F052C1A1D6ACA46007E1AAC /* ItemListDataProviderTesets.swift */; };
+		1F052C1D1D6AD077007E1AAC /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F052C1C1D6AD077007E1AAC /* ItemCell.swift */; };
+		1F052C281D6C2850007E1AAC /* ItemCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F052C271D6C2850007E1AAC /* ItemCellTests.swift */; };
 		1F4C53DC1D48B77500189335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C53DB1D48B77500189335 /* AppDelegate.swift */; };
-		1F4C53DE1D48B77500189335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C53DD1D48B77500189335 /* ViewController.swift */; };
 		1F4C53E11D48B77500189335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C53DF1D48B77500189335 /* Main.storyboard */; };
 		1F4C53E41D48B77500189335 /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C53E21D48B77500189335 /* ToDo.xcdatamodeld */; };
 		1F4C53E61D48B77500189335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C53E51D48B77500189335 /* Assets.xcassets */; };
@@ -17,6 +19,9 @@
 		1F63A6E51D66A24200D49BBF /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F63A6E41D66A24200D49BBF /* LocationTests.swift */; };
 		1F8427791D6709FC00569807 /* ItemManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8427781D6709FC00569807 /* ItemManagerTests.swift */; };
 		1F84277B1D670B9900569807 /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84277A1D670B9900569807 /* ItemManager.swift */; };
+		1F8427891D6AA55000569807 /* ItemListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8427881D6AA55000569807 /* ItemListViewControllerTests.swift */; };
+		1F84278E1D6AA66E00569807 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84278D1D6AA66E00569807 /* ItemListViewController.swift */; };
+		1F8427911D6AABA600569807 /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8427901D6AABA600569807 /* ItemListDataProvider.swift */; };
 		1F94D7D21D6416FD00B41BE4 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94D7D11D6416FD00B41BE4 /* ToDoItem.swift */; };
 		1FD24F031D519DDF005F6555 /* ToDoItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD24F021D519DDF005F6555 /* ToDoItemTests.swift */; };
 /* End PBXBuildFile section */
@@ -32,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F052C1A1D6ACA46007E1AAC /* ItemListDataProviderTesets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataProviderTesets.swift; sourceTree = "<group>"; };
+		1F052C1C1D6AD077007E1AAC /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		1F052C271D6C2850007E1AAC /* ItemCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellTests.swift; sourceTree = "<group>"; };
 		1F4C53D81D48B77500189335 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4C53DB1D48B77500189335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F4C53DD1D48B77500189335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F4C53E01D48B77500189335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F4C53E31D48B77500189335 /* ToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo.xcdatamodel; sourceTree = "<group>"; };
 		1F4C53E51D48B77500189335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +53,9 @@
 		1F63A6E41D66A24200D49BBF /* LocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		1F8427781D6709FC00569807 /* ItemManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManagerTests.swift; sourceTree = "<group>"; };
 		1F84277A1D670B9900569807 /* ItemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
+		1F8427881D6AA55000569807 /* ItemListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewControllerTests.swift; sourceTree = "<group>"; };
+		1F84278D1D6AA66E00569807 /* ItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		1F8427901D6AABA600569807 /* ItemListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataProvider.swift; sourceTree = "<group>"; };
 		1F94D7D11D6416FD00B41BE4 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		1FD24F021D519DDF005F6555 /* ToDoItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +99,9 @@
 		1F4C53DA1D48B77500189335 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				1F84278C1D6AA66E00569807 /* Controller */,
 				1FD24F101D51C850005F6555 /* Model */,
 				1F4C53DB1D48B77500189335 /* AppDelegate.swift */,
-				1F4C53DD1D48B77500189335 /* ViewController.swift */,
 				1F4C53DF1D48B77500189335 /* Main.storyboard */,
 				1F4C53E51D48B77500189335 /* Assets.xcassets */,
 				1F4C53E71D48B77500189335 /* LaunchScreen.storyboard */,
@@ -104,10 +114,31 @@
 		1F4C53F21D48B77600189335 /* ToDoTests */ = {
 			isa = PBXGroup;
 			children = (
+				1F8427871D6AA55000569807 /* Controller */,
 				1FD24F041D519DEB005F6555 /* Model */,
 				1F4C53F51D48B77600189335 /* Info.plist */,
 			);
 			path = ToDoTests;
+			sourceTree = "<group>";
+		};
+		1F8427871D6AA55000569807 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F8427881D6AA55000569807 /* ItemListViewControllerTests.swift */,
+				1F052C1A1D6ACA46007E1AAC /* ItemListDataProviderTesets.swift */,
+				1F052C271D6C2850007E1AAC /* ItemCellTests.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F84278C1D6AA66E00569807 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F84278D1D6AA66E00569807 /* ItemListViewController.swift */,
+				1F8427901D6AABA600569807 /* ItemListDataProvider.swift */,
+				1F052C1C1D6AD077007E1AAC /* ItemCell.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		1FD24F041D519DEB005F6555 /* Model */ = {
@@ -233,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4C53DE1D48B77500189335 /* ViewController.swift in Sources */,
+				1F052C1D1D6AD077007E1AAC /* ItemCell.swift in Sources */,
+				1F84278E1D6AA66E00569807 /* ItemListViewController.swift in Sources */,
+				1F8427911D6AABA600569807 /* ItemListDataProvider.swift in Sources */,
 				1F4C53E41D48B77500189335 /* ToDo.xcdatamodeld in Sources */,
 				1F63A6E31D669F0E00D49BBF /* Location.swift in Sources */,
 				1F94D7D21D6416FD00B41BE4 /* ToDoItem.swift in Sources */,
@@ -246,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F052C281D6C2850007E1AAC /* ItemCellTests.swift in Sources */,
+				1F8427891D6AA55000569807 /* ItemListViewControllerTests.swift in Sources */,
 				1F8427791D6709FC00569807 /* ItemManagerTests.swift in Sources */,
 				1F63A6E51D66A24200D49BBF /* LocationTests.swift in Sources */,
+				1F052C1B1D6ACA46007E1AAC /* ItemListDataProviderTesets.swift in Sources */,
 				1FD24F031D519DDF005F6555 /* ToDoItemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
