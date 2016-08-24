@@ -58,6 +58,20 @@ class ItemCellTests: XCTestCase {
         XCTAssertEqual(cell.locationLabel.text, "Home")
         XCTAssertEqual(cell.dateLabel.text, "02/22/2016")
     }
+    
+    func testTitle_ForCheckedTasks_IsStrokeThrough() {
+        let cell = tableView.dequeueReusableCellWithIdentifier(ItemCellIdentifier, forIndexPath: NSIndexPath(forRow: 0, inSection: 0)) as! ItemCell
+        
+        let toDoItem = ToDoItem(title: "First", itemDescription: "First description", timestamp: 1456150025, location: Location(name: "Home"))
+
+        cell.configCellWithItem(toDoItem, checked: true)
+        
+        let attributedText = NSAttributedString(string: toDoItem.title, attributes: [NSStrikethroughStyleAttributeName: NSUnderlineStyle.StyleSingle.rawValue])
+        
+        XCTAssertEqual(attributedText, cell.titleLabel.attributedText)
+        XCTAssertNil(cell.locationLabel.text)
+        XCTAssertNil(cell.dateLabel.text)
+    }
 }
 
 extension ItemCellTests {

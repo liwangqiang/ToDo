@@ -14,7 +14,14 @@ class ItemCell: UITableViewCell {
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
-    func configCellWithItem(item: ToDoItem) {
+    func configCellWithItem(item: ToDoItem, checked: Bool = false) {
+        if checked {
+            titleLabel.attributedText = NSAttributedString(string: item.title, attributes: [NSStrikethroughStyleAttributeName: NSUnderlineStyle.StyleSingle.rawValue])
+            locationLabel.text = nil
+            dateLabel.text = nil
+            return
+        }
+        
         titleLabel.text = item.title
         locationLabel.text = item.location?.name
         
