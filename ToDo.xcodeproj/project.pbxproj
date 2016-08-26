@@ -10,6 +10,11 @@
 		1F052C1B1D6ACA46007E1AAC /* ItemListDataProviderTesets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F052C1A1D6ACA46007E1AAC /* ItemListDataProviderTesets.swift */; };
 		1F052C1D1D6AD077007E1AAC /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F052C1C1D6AD077007E1AAC /* ItemCell.swift */; };
 		1F052C281D6C2850007E1AAC /* ItemCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F052C271D6C2850007E1AAC /* ItemCellTests.swift */; };
+		1F052C2A1D6D33E6007E1AAC /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F052C291D6D33E6007E1AAC /* DetailViewControllerTests.swift */; };
+		1F052C2C1D6D34E9007E1AAC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F052C2B1D6D34E9007E1AAC /* DetailViewController.swift */; };
+		1F052C2E1D6D3786007E1AAC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F052C2D1D6D3786007E1AAC /* MapKit.framework */; };
+		1F052C301D6D4D1B007E1AAC /* InputViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F052C2F1D6D4D1B007E1AAC /* InputViewControllerTests.swift */; };
+		1F052C321D6D4E0F007E1AAC /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F052C311D6D4E0F007E1AAC /* InputViewController.swift */; };
 		1F4C53DC1D48B77500189335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C53DB1D48B77500189335 /* AppDelegate.swift */; };
 		1F4C53E11D48B77500189335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C53DF1D48B77500189335 /* Main.storyboard */; };
 		1F4C53E41D48B77500189335 /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C53E21D48B77500189335 /* ToDo.xcdatamodeld */; };
@@ -40,6 +45,12 @@
 		1F052C1A1D6ACA46007E1AAC /* ItemListDataProviderTesets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataProviderTesets.swift; sourceTree = "<group>"; };
 		1F052C1C1D6AD077007E1AAC /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		1F052C271D6C2850007E1AAC /* ItemCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellTests.swift; sourceTree = "<group>"; };
+		1F052C291D6D33E6007E1AAC /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		1F052C2B1D6D34E9007E1AAC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1F052C2D1D6D3786007E1AAC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1F052C2F1D6D4D1B007E1AAC /* InputViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewControllerTests.swift; sourceTree = "<group>"; };
+		1F052C311D6D4E0F007E1AAC /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		1F052C6A1D6E8BC1007E1AAC /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		1F4C53D81D48B77500189335 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4C53DB1D48B77500189335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F4C53E01D48B77500189335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F052C2E1D6D3786007E1AAC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,7 @@
 		1F4C53CF1D48B77500189335 = {
 			isa = PBXGroup;
 			children = (
+				1F052C2D1D6D3786007E1AAC /* MapKit.framework */,
 				1F4C53DA1D48B77500189335 /* ToDo */,
 				1F4C53F21D48B77600189335 /* ToDoTests */,
 				1F4C53D91D48B77500189335 /* Products */,
@@ -117,6 +130,7 @@
 				1F8427871D6AA55000569807 /* Controller */,
 				1FD24F041D519DEB005F6555 /* Model */,
 				1F4C53F51D48B77600189335 /* Info.plist */,
+				1F052C6A1D6E8BC1007E1AAC /* MyPlayground.playground */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -127,6 +141,8 @@
 				1F8427881D6AA55000569807 /* ItemListViewControllerTests.swift */,
 				1F052C1A1D6ACA46007E1AAC /* ItemListDataProviderTesets.swift */,
 				1F052C271D6C2850007E1AAC /* ItemCellTests.swift */,
+				1F052C291D6D33E6007E1AAC /* DetailViewControllerTests.swift */,
+				1F052C2F1D6D4D1B007E1AAC /* InputViewControllerTests.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,6 +153,8 @@
 				1F84278D1D6AA66E00569807 /* ItemListViewController.swift */,
 				1F8427901D6AABA600569807 /* ItemListDataProvider.swift */,
 				1F052C1C1D6AD077007E1AAC /* ItemCell.swift */,
+				1F052C2B1D6D34E9007E1AAC /* DetailViewController.swift */,
+				1F052C311D6D4E0F007E1AAC /* InputViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -212,6 +230,11 @@
 					1F4C53D71D48B77500189335 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = HT4F83G285;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					1F4C53EE1D48B77600189335 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -264,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F052C2C1D6D34E9007E1AAC /* DetailViewController.swift in Sources */,
+				1F052C321D6D4E0F007E1AAC /* InputViewController.swift in Sources */,
 				1F052C1D1D6AD077007E1AAC /* ItemCell.swift in Sources */,
 				1F84278E1D6AA66E00569807 /* ItemListViewController.swift in Sources */,
 				1F8427911D6AABA600569807 /* ItemListDataProvider.swift in Sources */,
@@ -282,9 +307,11 @@
 				1F052C281D6C2850007E1AAC /* ItemCellTests.swift in Sources */,
 				1F8427891D6AA55000569807 /* ItemListViewControllerTests.swift in Sources */,
 				1F8427791D6709FC00569807 /* ItemManagerTests.swift in Sources */,
+				1F052C301D6D4D1B007E1AAC /* InputViewControllerTests.swift in Sources */,
 				1F63A6E51D66A24200D49BBF /* LocationTests.swift in Sources */,
 				1F052C1B1D6ACA46007E1AAC /* ItemListDataProviderTesets.swift in Sources */,
 				1FD24F031D519DDF005F6555 /* ToDoItemTests.swift in Sources */,
+				1F052C2A1D6D33E6007E1AAC /* DetailViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
